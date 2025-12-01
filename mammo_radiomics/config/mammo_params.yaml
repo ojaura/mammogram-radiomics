@@ -1,0 +1,24 @@
+imageType:
+  Original: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+  Wavelet: {}
+
+featureClass:
+  firstorder: []
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  ngtdm: []
+  shape2D: []
+
+setting:
+  force2D: true
+  force2Ddimension: 0
+  normalize: true
+  normalizeScale: 1
+  binWidth: 25
+  correctMask: true
+  interpolator: 'sitkBSpline'
+  symmetricalGLCM: true
